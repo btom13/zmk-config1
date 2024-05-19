@@ -35,41 +35,6 @@ layers:
   - {t: ␣, h: NAV}
   - {t: ⌫, h: SYM}
   - {t: ⏎, h: Shift}
-  BRD:
-  - X
-  - C
-  - L
-  - F
-  - B
-  - J
-  - Y
-  - O
-  - U
-  - ''''
-  - {t: R, h: Ctrl}
-  - {t: S, h: Gui}
-  - {t: N, h: Alt}
-  - {t: T, h: Shift}
-  - P
-  - K
-  - {t: H, h: Shift}
-  - {t: E, h: Alt}
-  - {t: I, h: Gui}
-  - {t: A, h: Ctrl}
-  - ''
-  - W
-  - M
-  - G
-  - ''
-  - ''
-  - D
-  - ','
-  - .
-  - ''
-  - {t: Esc, h: Ctrl}
-  - {t: ␣, h: NAV}
-  - {t: ⌫, h: SYM}
-  - {t: ⏎, h: Shift}
   GME:
   - ↹
   - Q
@@ -184,7 +149,7 @@ layers:
   - Out USB
   - Out BLE
   - {t: DEF, h: toggle}
-  - {t: BRD, h: toggle}
+  - ''
   - {t: GME, h: toggle}
   - F6
   - F7
@@ -214,59 +179,53 @@ combos:
 - p: [2, 3]
   k: J
   l: [DEF]
-- p: [2, 3]
-  k: Q
-  l: [BRD]
-- p: [1, 2]
-  k: V
-  l: [BRD]
 - p: [6, 7]
   k: ;
-  l: [DEF, BRD, SYM]
+  l: [DEF, SYM]
   draw_separate: true
 - p: [7, 8]
   k: '`'
-  l: [DEF, BRD, SYM]
+  l: [DEF, SYM]
   draw_separate: true
 - p: [12, 13]
   k: (
-  l: [DEF, BRD]
+  l: [DEF]
   draw_separate: true
 - p: [16, 17]
   k: )
-  l: [DEF, BRD]
+  l: [DEF]
   draw_separate: true
 - p: [11, 12]
   k: '['
-  l: [DEF, BRD]
+  l: [DEF]
   draw_separate: true
 - p: [17, 18]
   k: ']'
-  l: [DEF, BRD]
+  l: [DEF]
   draw_separate: true
 - p: [11, 13]
   k: ↹
-  l: [DEF, BRD, SYM]
+  l: [DEF, SYM]
   draw_separate: true
 - p: [16, 18]
   k: ⌦
-  l: [DEF, BRD, SYM]
+  l: [DEF, SYM]
   draw_separate: true
 - p: [11, 12, 13]
   k: Esc
-  l: [DEF, BRD, SYM]
+  l: [DEF, SYM]
   draw_separate: true
 - p: [16, 17, 18]
   k: ⏎
-  l: [DEF, BRD, SYM]
+  l: [DEF, SYM]
   draw_separate: true
 - p: [13, 16]
   k: Caps Word
-  l: [DEF, BRD]
+  l: [DEF]
   draw_separate: true
 - p: [3, 4]
   k: Lock
-  l: [DEF, BRD]
+  l: [DEF]
   draw_separate: true
 - p: [4, 14]
   k: ⏯
@@ -277,17 +236,17 @@ combos:
   l: [FUN]
 - p: [21, 22]
   k: Z
-  l: [DEF, BRD]
+  l: [DEF]
 - p: [22, 23]
   k: V
   l: [DEF]
 - p: [26, 27]
   k: \
-  l: [DEF, BRD, SYM]
+  l: [DEF, SYM]
   draw_separate: true
 - p: [27, 28]
   k: /
-  l: [DEF, BRD, SYM]
+  l: [DEF, SYM]
   draw_separate: true
 - p: [21, 22]
   k: F12
