@@ -26,8 +26,8 @@ layers:
   - H
   - ','
   - .
-  - {t: Esc, h: '3'}
-  - {t: ⏎, h: '2'}
+  - {t: Esc, h: NAV}
+  - {t: ⏎, h: SYM}
   GME:
   - ↹
   - Q
@@ -85,7 +85,7 @@ layers:
   - '2'
   - '3'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   NAV:
   - Win Close
   - Tab Left
@@ -113,8 +113,8 @@ layers:
   - ⌦
   - ⏮️
   - ⏭️
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   FUN:
   - F1
   - F2
@@ -142,7 +142,7 @@ layers:
   - Caps Lock
   - Print Scrn
   - Pause Break
-  - {t: ▽, type: trans}
+  - {type: held}
   - {type: held}
   MSE:
   - ''
