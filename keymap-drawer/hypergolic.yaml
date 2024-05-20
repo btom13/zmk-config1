@@ -113,7 +113,7 @@ layers:
   - Vol Up
   - Insert
   - Page Down
-  - ↑
+  - '&NONE'
   - Page Up
   - Calc
   - Ctrl
@@ -124,8 +124,8 @@ layers:
   - Home
   - ←
   - ↓
+  - ↑
   - →
-  - End
   - ''
   - Win Prev
   - Win Next
@@ -135,7 +135,7 @@ layers:
   - ⌦
   - ⏮️
   - ⏭️
-  - ''
+  - End
   - ''
   - {type: held}
   - {t: ▽, type: trans}

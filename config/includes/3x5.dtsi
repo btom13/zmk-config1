@@ -180,11 +180,11 @@
             display-name = "NAV";
             bindings = <LAYER_FROM36( \
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-     &kp LA(F4),   &kp TAB_LT,   &kp TAB_RT,   &kp LC(F4),   &kp C_VOL_UP,     &kp INS,      &kp PG_DN,    &kp UP,       &kp PG_UP,    &kp C_AL_CALC, \
+     &kp LA(F4),   &kp TAB_LT,   &kp TAB_RT,   &kp LC(F4),   &kp C_VOL_UP,     &kp INS,      &kp PG_DN,    &NONE,       &kp PG_UP,    &kp C_AL_CALC, \
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-     &kp LCTRL,    &kp LGUI,     &kp LALT,     &mt LSHFT TAB, &kp C_VOL_DN,    &kp HOME,     &kp LEFT,     &kp DOWN,     &kp RIGHT,    &kp END,       \
+     &kp LCTRL,    &kp LGUI,     &kp LALT,     &mt LSHFT TAB, &kp C_VOL_DN,    &kp HOME,     &kp LEFT,     &kp DOWN,     &kp UP,       &kp RIGHT,       \
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-     &none,        &kp LS(TAB),  &swapper,     &kp LS(INS),  &kp C_PP,         &none,        &kp DEL,      &kp C_PREV,   &kp C_NEXT,   &none,         \
+     &none,        &kp LS(TAB),  &swapper,     &kp LS(INS),  &kp C_PP,         &none,        &kp DEL,      &kp C_PREV,   &kp C_NEXT,   &kp END,         \
 // ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
                                  &kp LGUI,     &none,        &trans,           &trans,       &kp SPACE,    &kp RALT \
 //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
@@ -211,9 +211,9 @@
             display-name = "MSE";
             bindings = <LAYER_FROM36( \
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-     &none,        &none,        &none,        &none,        &none,          &msc SCRL_LEFT, &msc SCRL_DOWN, &mmv MOVE_UP, &msc SCRL_UP, &msc SCRL_RIGHT, \
+     &none,        &none,        &none,        &none,        &none,          &msc SCRL_LEFT, &msc SCRL_DOWN, &NONE, &msc SCRL_UP, &msc SCRL_RIGHT, \
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-     &kp LCTRL,    &kp LGUI,     &kp LALT,     &kp LSHFT,    &none,            &mkp RCLK,  &mmv MOVE_LEFT, &mmv MOVE_DOWN, &mmv MOVE_RIGHT, &none,         \
+     &kp LCTRL,    &kp LGUI,     &kp LALT,     &kp LSHFT,    &none,            &mkp RCLK,  &mmv MOVE_LEFT, &mmv MOVE_DOWN, &mmv MOVE_UP, &mmv MOVE_RIGHT,         \
 // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
      &none,        &none,        &none,        &none,        &none,            &none,        &mkp MB4,     &mkp MCLK,    &mkp MB5,     &none,           \
 // ╰─────────────┴─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯

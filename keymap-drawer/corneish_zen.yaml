@@ -119,7 +119,7 @@ layers:
   - Vol Up
   - Insert
   - Page Down
-  - ↑
+  - '&NONE'
   - Page Up
   - Calc
   - Ctrl
@@ -130,8 +130,8 @@ layers:
   - Home
   - ←
   - ↓
+  - ↑
   - →
-  - End
   - ''
   - Win Prev
   - Win Next
@@ -141,7 +141,7 @@ layers:
   - ⌦
   - ⏮️
   - ⏭️
-  - ''
+  - End
   - Gui
   - ''
   - {type: held}
@@ -193,7 +193,7 @@ layers:
   - ''
   - Scroll ←
   - Scroll ↓
-  - Mouse ↑
+  - '&NONE'
   - Scroll ↑
   - Scroll →
   - Ctrl
@@ -204,8 +204,8 @@ layers:
   - Right Click
   - Mouse ←
   - Mouse ↓
+  - Mouse ↑
   - Mouse →
-  - ''
   - ''
   - ''
   - ''
