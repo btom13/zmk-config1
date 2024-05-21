@@ -150,11 +150,11 @@ layers:
   - ''
   - ''
   - ''
-  - Scroll ←
-  - Scroll ↓
   - ''
-  - Scroll ↑
-  - Scroll →
+  - Back Click
+  - Middle Click
+  - Forward Click
+  - ''
   - Gui
   - Alt
   - Ctrl
@@ -168,9 +168,9 @@ layers:
   - ''
   - ''
   - {type: held}
-  - Back Click
-  - Middle Click
-  - Forward Click
+  - Scroll ←
+  - Scroll ↓
+  - Scroll ↑
   - ''
   - Left Click
 combos:
