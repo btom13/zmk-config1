@@ -184,8 +184,8 @@ layers:
   - Scroll ↑
   - ''
   - ''
-  - Left Click
   - Right Click
+  - Left Click
 combos:
 - p: [2, 3]
   k: J

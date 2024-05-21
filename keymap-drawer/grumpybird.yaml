@@ -172,7 +172,7 @@ layers:
   - Scroll ↓
   - Scroll ↑
   - ''
-  - Left Click
+  - Right Click
 combos:
 - p: [2, 3]
   k: J
