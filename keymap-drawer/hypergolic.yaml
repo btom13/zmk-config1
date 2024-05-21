@@ -113,7 +113,7 @@ layers:
   - Vol Up
   - Insert
   - Page Down
-  - '&NONE'
+  - ''
   - Page Up
   - Calc
   - Gui
