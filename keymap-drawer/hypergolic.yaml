@@ -11,16 +11,16 @@ layers:
   - U
   - Y
   - ''''
-  - {t: A, h: Ctrl}
-  - {t: R, h: Gui}
-  - {t: S, h: Alt}
+  - {t: A, h: Gui}
+  - {t: R, h: Alt}
+  - {t: S, h: Ctrl}
   - {t: T, h: Shift}
   - G
   - M
   - {t: N, h: Shift}
-  - {t: E, h: Alt}
-  - {t: I, h: Gui}
-  - {t: O, h: Ctrl}
+  - {t: E, h: Ctrl}
+  - {t: I, h: Alt}
+  - {t: O, h: Gui}
   - Z
   - X
   - C
@@ -91,11 +91,11 @@ layers:
   - '5'
   - '6'
   - .
-  - ''
+  - ':'
   - '?'
   - '*'
   - '&'
-  - ''
+  - '|'
   - ;
   - '1'
   - '2'
@@ -106,7 +106,7 @@ layers:
   - {type: held}
   - ''
   NAV:
-  - Win Close
+  - Ctl+ T
   - Tab Left
   - Tab Right
   - Tab Close
@@ -116,9 +116,9 @@ layers:
   - '&NONE'
   - Page Up
   - Calc
-  - Ctrl
   - Gui
   - Alt
+  - Ctrl
   - {t: ↹, h: Shift}
   - Vol Down
   - Home
