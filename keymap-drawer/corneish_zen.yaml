@@ -112,7 +112,7 @@ layers:
   - ''
   - Alt
   NAV:
-  - Ctl+ T
+  - Ctl+ W
   - Tab Left
   - Tab Right
   - Tab Close
@@ -191,11 +191,11 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - Ctl+ C
   - Back Click
   - Middle Click
   - Forward Click
-  - ''
+  - Ctl+ V
   - Gui
   - Alt
   - Ctrl
